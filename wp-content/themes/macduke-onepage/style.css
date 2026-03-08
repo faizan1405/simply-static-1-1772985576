@@ -1,0 +1,36 @@
+/*
+Theme Name: Macduke Onepage
+Theme URI: https://elite-care-zen.lovable.app
+Author: Alvi Nursing Home
+Author URI: https://elite-care-zen.lovable.app
+Description: A modern single-page WordPress theme for Alvi Nursing Home — featuring services, doctors, facilities, testimonials, and contact sections.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: macduke-onepage
+Tags: one-column, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/* FORCE Google map to be big */
+#contact .contact-map,
+.contact-section .contact-map,
+.contact-map{
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 520px !important;     /* increase height */
+  min-height: 520px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  border-radius: 20px;
+}
+
+#contact .contact-map iframe,
+.contact-section .contact-map iframe,
+.contact-map iframe{
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 520px !important;
+  border: 0 !important;
+  display: block !important;
+}
